@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/umary/CLionProjects/RayTracing/color.cpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="C:/Users/umary/CLionProjects/RayTracing/color.h">
+			<Option target="RayTracing"/>
+		</Unit>
 		<Unit filename="C:/Users/umary/CLionProjects/RayTracing/main.cpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="C:/Users/umary/CLionProjects/RayTracing/ray.cpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="C:/Users/umary/CLionProjects/RayTracing/ray.h">
 			<Option target="RayTracing"/>
 		</Unit>
 		<Unit filename="C:/Users/umary/CLionProjects/RayTracing/vec3.cpp">

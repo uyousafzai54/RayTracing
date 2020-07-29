@@ -122,6 +122,33 @@ RayTracing/fast:
 	$(MAKE) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/build
 .PHONY : RayTracing/fast
 
+color.obj: color.cpp.obj
+
+.PHONY : color.obj
+
+# target to build an object file
+color.cpp.obj:
+	$(MAKE) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/color.cpp.obj
+.PHONY : color.cpp.obj
+
+color.i: color.cpp.i
+
+.PHONY : color.i
+
+# target to preprocess a source file
+color.cpp.i:
+	$(MAKE) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/color.cpp.i
+.PHONY : color.cpp.i
+
+color.s: color.cpp.s
+
+.PHONY : color.s
+
+# target to generate assembly for a file
+color.cpp.s:
+	$(MAKE) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/color.cpp.s
+.PHONY : color.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -148,6 +175,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+ray.obj: ray.cpp.obj
+
+.PHONY : ray.obj
+
+# target to build an object file
+ray.cpp.obj:
+	$(MAKE) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/ray.cpp.obj
+.PHONY : ray.cpp.obj
+
+ray.i: ray.cpp.i
+
+.PHONY : ray.i
+
+# target to preprocess a source file
+ray.cpp.i:
+	$(MAKE) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/ray.cpp.i
+.PHONY : ray.cpp.i
+
+ray.s: ray.cpp.s
+
+.PHONY : ray.s
+
+# target to generate assembly for a file
+ray.cpp.s:
+	$(MAKE) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/ray.cpp.s
+.PHONY : ray.cpp.s
 
 vec3.obj: vec3.cpp.obj
 
@@ -185,9 +239,15 @@ help:
 	@echo ... RayTracing
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... color.obj
+	@echo ... color.i
+	@echo ... color.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... ray.obj
+	@echo ... ray.i
+	@echo ... ray.s
 	@echo ... vec3.obj
 	@echo ... vec3.i
 	@echo ... vec3.s

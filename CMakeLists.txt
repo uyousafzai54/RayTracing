@@ -3,4 +3,4 @@ project(RayTracing)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(RayTracing main.cpp vec3.cpp vec3.h)
+add_executable(RayTracing main.cpp vec3.cpp vec3.h ray.cpp ray.h color.cpp color.h)
