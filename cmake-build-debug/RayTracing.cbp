@@ -83,6 +83,12 @@
 		<Unit filename="C:/Users/umary/CLionProjects/RayTracing/main.cpp">
 			<Option target="RayTracing"/>
 		</Unit>
+		<Unit filename="C:/Users/umary/CLionProjects/RayTracing/vec3.cpp">
+			<Option target="RayTracing"/>
+		</Unit>
+		<Unit filename="C:/Users/umary/CLionProjects/RayTracing/vec3.h">
+			<Option target="RayTracing"/>
+		</Unit>
 		<Unit filename="C:/Users/umary/CLionProjects/RayTracing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

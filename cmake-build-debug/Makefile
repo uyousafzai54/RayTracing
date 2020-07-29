@@ -149,6 +149,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+vec3.obj: vec3.cpp.obj
+
+.PHONY : vec3.obj
+
+# target to build an object file
+vec3.cpp.obj:
+	$(MAKE) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/vec3.cpp.obj
+.PHONY : vec3.cpp.obj
+
+vec3.i: vec3.cpp.i
+
+.PHONY : vec3.i
+
+# target to preprocess a source file
+vec3.cpp.i:
+	$(MAKE) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/vec3.cpp.i
+.PHONY : vec3.cpp.i
+
+vec3.s: vec3.cpp.s
+
+.PHONY : vec3.s
+
+# target to generate assembly for a file
+vec3.cpp.s:
+	$(MAKE) -f CMakeFiles\RayTracing.dir\build.make CMakeFiles/RayTracing.dir/vec3.cpp.s
+.PHONY : vec3.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... vec3.obj
+	@echo ... vec3.i
+	@echo ... vec3.s
 .PHONY : help
 
 
